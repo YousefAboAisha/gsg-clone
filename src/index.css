@@ -38,18 +38,18 @@
   }
 
   .bg-theme {
-    @apply bg-background_light dark:bg-background_dark;
+    @apply bg-background_light;
   }
 
   .text-theme {
-    @apply text-text_light dark:text-text_dark;
+    @apply text-text_light;
   }
 
   .border-theme {
-    @apply border border-light dark:border-dark;
+    @apply border border-light;
   }
   .full-theme {
-    @apply bg-background_light dark:bg-background_dark text-text_light dark:text-text_dark border border-light dark:border-dark;
+    @apply bg-background_light text-text_light border border-light;
   }
 
   h1,

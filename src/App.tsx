@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Coders from "./Containers/Home/coders";
 import Freelancers from "./Containers/Home/freelancers";
@@ -27,6 +28,8 @@ function App() {
       <section>
         <Coders />
       </section>
+
+      <Footer />
     </div>
   );
 }

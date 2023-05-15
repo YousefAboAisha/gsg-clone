@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav
-      className={`fixed w-full h-[70px] top-0 left-0 z-[10000] items-center bg-theme text-theme duration-500 shadow-lg `}
+      className={`fixed w-full h-[70px] top-0 left-0 z-[10000] items-center bg-white text-black text-theme duration-500 shadow-lg `}
     >
       <div className="container flex flex-row justify-between items-center h-full">
-        <Link to={"/"} className="flex items-center gap-2 text-2xl">
+        <Link to={"/"} className="flex items-center gap-2 text-xl">
           <span className="hidden md:block">SkillsForge</span>
-          <GiSkills size={35} className="text-theme" />
+          <GiSkills size={30} className="text-theme" />
         </Link>
 
         <div
