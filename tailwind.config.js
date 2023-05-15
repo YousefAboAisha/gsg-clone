@@ -39,7 +39,20 @@ module.exports = {
         shake: "shake 0.7s linear 1",
       },
       backgroundImage: {
-        "hero-pattern": "url('/technology.jpg')",
+        "landing-image": "url('/public/landing.jpeg')",
+      },
+      screens: {
+        sm: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        md: "768px",
+        // => @media (min-width: 768px) { ... }
+
+        lg: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        xl: "1400px",
+        // => @media (min-width: 1280px) { ... }
       },
     },
   },

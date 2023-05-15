@@ -8,10 +8,14 @@
   }
 
   .container {
-    @apply w-11/12 md:w-10/12 lg:w-9/12 mx-auto;
+    @apply w-11/12 md:w-10/12 lg:w-10/12 xl:w-8/12 mx-auto;
   }
 
   .section {
+    @apply relative w-full mt-32 mx-auto;
+  }
+
+  section {
     @apply relative w-full mt-32 mx-auto;
   }
 
@@ -89,4 +93,9 @@ select {
   -webkit-appearance: none; /* Safari and Chrome */
   appearance: none;
   padding-right: 5px;
+}
+
+.clip {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
 }
